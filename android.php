@@ -1,7 +1,7 @@
 <?php	
 	$host    = "127.0.0.1";
 	$port    = 27015;
-	
+	//test
 	if (isset($_POST['message']) && isset($_POST['username']) && isset($_POST['password']))
 	{
 		$msg=$_POST['message']."@".$_POST['username'].":".$_POST['password'];
