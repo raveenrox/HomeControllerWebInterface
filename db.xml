@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<dbVer>27</dbVer>
+	<room>
+		<name>Living Room</name>
+		<image>0.jpg</image>
+		<color>F44336</color>
+		<child>
+			<childname>Living Room Light 1</childname>
+			<command>5</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Living Room Light 2</childname>
+			<command>6</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Living Room Fan</childname>
+			<command>7</command>
+			<type>Fan</type>
+		</child>
+	</room>
+	<room>
+		<name>Dinning Room</name>
+		<image>1.jpg</image>
+		<color>E91E63</color>
+		<child>
+			<childname>Dinning Room Light 1</childname>
+			<command>8</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Dinning Room Light 2</childname>
+			<command>9</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Dinning Room Light 3</childname>
+			<command>10</command>
+			<type>Light</type>
+		</child>
+	</room>
+	<room>
+		<name>Bedroom</name>
+		<image>2.jpg</image>
+		<color>9C27B0</color>
+		<child>
+			<childname>Bedroom Light 1</childname>
+			<command>11</command>
+			<type>Light</type>
+		</child>
+	</room>
+	<room>
+		<name>Kitchen</name>
+		<image>3.jpg</image>
+		<color>673AB7</color>
+		<child>
+			<childname>Kitchen Light 1</childname>
+			<command>12</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Kitchen Light 2</childname>
+			<command>13</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Kitchen Light 3</childname>
+			<command>14</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>Kitchen Appliances 1</childname>
+			<command>15</command>
+			<type>Appliances</type>
+		</child>
+		<child>
+			<childname>Kitchen Appliances 2</childname>
+			<command>16</command>
+			<type>Appliances</type>
+		</child>
+	</room>
+	<room>
+		<name>Kids Room</name>
+		<image>4.jpg</image>
+		<color>3F51B5</color>
+		<child>
+			<childname>Light 1</childname>
+			<command>17</command>
+			<type>Light</type>
+		</child>
+	</room>
+	<room>
+		<name>Garden</name>
+		<image>5.jpg</image>
+		<color>2196F3</color>
+		<child>
+			<childname>Garden Light 1</childname>
+			<command>18</command>
+			<type>Light</type>
+		</child>
+	</room>
+	<room>
+		<name>Gate</name>
+		<image>6.jpg</image>
+		<color>009688</color>
+		<child>
+			<childname>Gate Control</childname>
+			<command>19</command>
+			<type>Gate</type>
+		</child>
+	</room>
+	<room>
+		<name>RFStudio</name>
+		<image>7.jpg</image>
+		<color>FF5722</color>
+		<child>
+			<childname>RFStudio Light 1</childname>
+			<command>0</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>RFStudio Light 2</childname>
+			<command>1</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>RFStudio Light 3</childname>
+			<command>2</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>RFStudio Light 4</childname>
+			<command>3</command>
+			<type>Light</type>
+		</child>
+		<child>
+			<childname>RFStudio Light 5</childname>
+			<command>4</command>
+			<type>Light</type>
+		</child>
+	</room>
+</root>
