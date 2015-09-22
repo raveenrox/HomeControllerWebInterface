@@ -1,0 +1,132 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: arial;
+	font-size: 12px;
+}
+a {
+    text-decoration: none ;
+	all: unset;
+	
+	color:inherit;
+}
+.loginsplash{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.auth>input{
+	display: block;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10px;
+}
+.auth{
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+.grid{
+	max-width:920px;
+	margin:auto;
+}
+.grid>div{
+	display: inline-block;
+	padding: 0px;
+	margin: 10px;
+}
+.contextimage{
+	width: 200px;
+	height: 200px;
+	opacity: 1;
+	-webkit-transition: opacity 1s ease-in;
+}
+.grid>div>img_use_hover_if_needed_in_that_case_remove_jscript{
+	opacity: 0.6;
+    -webkit-transition: opacity 1s ease-out;
+}
+.contextheading{
+	color:#ffffff;
+	padding: 25px 10px 25px 10px;
+	text-align: center;
+}
+.mainheading{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:100;
+	font-size:26px;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:15px;
+}
+.mainbody{
+	background-color:rgba(116,116,116,1.00);
+	}
+	
+.icon{
+	widows: 100px;
+	height: 100px;
+}
+.switch{
+	font-size: 11px;
+	color: #000000;
+	box-shadow: 0px 0px 0px #d7d7d7;
+	border: 1px solid #d7d7d7;
+	border-radius: 3px;
+	
+	margin: 2px;
+	padding: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	display: inline-block;
+}
+td{
+	padding: 10px;
+}
+
+.roomtable >tr,td,th{
+	border-collapse: collapse;
+	border: 1px solid #ededed;
+}
+.roomtable{
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+form>input{
+	margin: 5px;
+}
+.roomth{
+	padding: 0px;
+	vertical-align: top;
+	margin: 0px;
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: normal;
+	
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+	opacity: 0.3;
+}
+.roomh{
+	font-size: 16px;
+}
+.back{
+	padding-bo: 50px;
+	margin: 50px;
+}
+table{
+	
+}
+
