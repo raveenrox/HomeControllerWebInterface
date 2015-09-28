@@ -19,12 +19,12 @@
 						
                         echo "<div class='container' style='background-color:".$room->color.";' >";
 						echo "<a href='room.php?room=".$room->name."'>";
-                        echo "<img class='contextimage' src='" . $path.$room->image . "' onMouseDown='shadedown(this)' onMouseUp='shadeup(this)'/>";
+                        echo "<img class='contextimage' src='" . $path."images/".$room->image . "' onMouseDown='shadedown(this)' onMouseUp='shadeup(this)'/>";
 						echo "<p class='contextheading'>" . $room->name . "</p>";echo "</a>";
                         echo "</div>";
 						
                     } 
-                echo $_SESSION['auth'];
+                
             ?>
 		</div>
 		<br/>

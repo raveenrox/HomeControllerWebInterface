@@ -20,15 +20,18 @@
 		if($_SESSION['username']==$username && $_SESSION['password']==$password)
 			header("Location :main.php");
 		else {
-			header("Location: index.html");
+			
+			echo "<script>alert('Please enter username and password correctly');</script>";
+			echo "<meta http-equiv=\"refresh\" content=\"0; url=./logout.php\" />";
 		}
 	}
-	else 
-		header("Location: index.html");
+	else {
+		//echo "<script>alert('Please enter username and password correctly');</script>";
+		echo "<meta http-equiv=\"refresh\" content=\"0; url=./index.html\" />";
+	}
 	
 	
-	
-	if(isset($_POST['username']) && isset($_POST['password'])){
+	if(isset($_POST['username']) && isset($_POST['password']) && $_POST['username']!="" && $_POST['password']!=""){
 		
 		
 		if(!strcmp($_POST['username'],$username) && !strcmp($_POST['password'],$password)){
@@ -40,14 +43,16 @@
 			default_login($_POST['username'],$_POST['password']);
 		
 		else{
-			
-			header("Location: index.html");
+			echo "<script>alert('Invalid Username or Password');</script>";
+			echo "<meta http-equiv=\"refresh\" content=\"0; url=./index.html\" />";
 			die();
 		}
 	}
-	else 
-		header("Location: index.html");
-	
+	else {
+		
+		echo "<script>alert('Please Login to Continue');</script>";
+		echo "<meta http-equiv=\"refresh\" content=\"0; url=./index.html\" />";
+	}
 	
 	function default_login($un,$pp){
 		if($un=="admin" && $pp=="admin123"){
