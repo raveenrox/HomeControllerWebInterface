@@ -73,14 +73,7 @@
 			else 
 				$singlemessage="Open or Close";
 			}
-			
-			
-				
-		
-				
-			
-		
-		
+
 		echo "<tr>";
 		if ($state==1){
 			echo "<td><image class='icon' src='icons\\".$object_type."_on.png'></img></td>";

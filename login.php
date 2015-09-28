@@ -26,7 +26,7 @@
 		}
 	}
 	else {
-		//echo "<script>alert('Please enter username and password correctly');</script>";
+		echo "<script>alert('Please enter username and password correctly');</script>";
 		echo "<meta http-equiv=\"refresh\" content=\"0; url=./index.html\" />";
 	}
 	
