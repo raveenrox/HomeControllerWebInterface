@@ -73,7 +73,14 @@
 			else 
 				$singlemessage="Open or Close";
 			}
-
+			
+			
+				
+		
+				
+			
+		
+		
 		echo "<tr>";
 		if ($state==1){
 			echo "<td><image class='icon' src='icons\\".$object_type."_on.png'></img></td>";
@@ -82,18 +89,9 @@
 		echo "<td><image class='icon' src='icons\\".$object_type.".png'></img></td>";
 		
 		echo "<td><b>".$object_name."</b><br/>Use following buttons to  Interact with object<br/>";
-		if(!is_numeric((string)$command)){
 
-				$con="X".$command."Y1Z";
-				$coff="X".$command."Y0Z";
-				
-				echo "<a class ='switch' href='message.php?".$auth_str."&message=".$con."&room=".$_GET['room']."'>".$singlemessage."</a></td>";
-				
-				
-			}
-		else{
 		echo "<a class ='switch' href='message.php?".$auth_str."&message=".$con."&room=".$_GET['room']."'>".$on_message."</a><a class='switch' href='message.php?".$auth_str."&message=".$coff."&room=".$_GET['room']."'>".$off_message."</a></td>";
-	}
+
 		echo "<td><b>Shedule</b><br/><form action='shedule.php' method='get'>Date <input type='date' name='date' placeholder='MM/DD/YYYY'><br/>Time <input type='time' name='time' placeholder='HH:MM AM'><br/><input type='radio' name='state' value='".$con."'' checked='true'>".$on_message."<input type='radio' name='state' value='".$coff."'>".$off_message."<input type='hidden' name='room' value='".$_GET['room']."'><br/><input type='submit'  class ='switch' value='Add to Shedule'/></form><br/>
 			</td>";
 		echo "</tr>";
